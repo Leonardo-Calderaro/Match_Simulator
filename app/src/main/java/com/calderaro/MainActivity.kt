@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
 //        findViewById<TextView>(R.id.textViewHelloWorld)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
-        binding.textViewHelloWorld.text = "Testando 1, 2, 3."
+        setContentView(binding.root)
+
+//        binding.textViewHelloWorld.text = "Testando 1, 2, 3."
 
     }
 }
